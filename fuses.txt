@@ -1,0 +1,1 @@
+avrdude -c usbasp -p t4313 -U flash:w:main4313.hex -U lfuse:w:0xcf:m -U hfuse:w:0xdb:m -U efuse:w:0xff:m 
